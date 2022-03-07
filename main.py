@@ -15,7 +15,7 @@ def press(num):
     global expression
  
     # concatenation of string
-    expression = expression + str(num)
+    expression =+ str(num)
  
     # update the expression by using set method
     equation.set(expression)
